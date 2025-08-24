@@ -1,5 +1,8 @@
 # Fabric_Defect_Detection
 
+<img width="743" height="537" alt="{1B07E375-8AD5-4A14-8FFE-4FE3BA0C529B}" src="https://github.com/user-attachments/assets/fe701bce-cc19-49f0-b49e-001e1c97a424" />
+
+
 I built a small anomaly detection pipeline around ResNet and a feature autoencoder. Here's what the code is doing step by step:
 
 ## Feature Extractor (ResNet backbone)
@@ -21,4 +24,3 @@ For evaluation, I run the same feature extraction on test images, reconstruct wi
 
 2. If the score is higher, the autoencoder struggled to reconstruct, meaning the image might contain an anomaly.
 
-<img width="743" height="537" alt="{1B07E375-8AD5-4A14-8FFE-4FE3BA0C529B}" src="https://github.com/user-attachments/assets/fe701bce-cc19-49f0-b49e-001e1c97a424" />
